@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    background-color: black;
+    width: 24%;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.main h1 {
+    color: rgb(176, 176, 176);
+    font-family: poppins;
+
+}
+
+.display {
+    height: 50px;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+/* .input input[type=text] {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 2px;
+    max-width: fit-content;
+    width: 280px;
+    border: none;
+    text-align: end;
+    font-size: xx-large;
+    margin-left: 5px;
+    outline: none;
+} */
+
+.main .line1 {
+    margin-top: 10px;
+    display: flex;
+}
+
+.line1 button:hover {
+    background-color:  rgb(94, 94, 94);
+    color: rgb(0, 0, 0);
+}
+
+.main button {
+    background-color: grey;
+    border-radius: 100px;
+    width: 60px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-right: 10px;
+    margin: auto;
+    
+}
+
+.main .other {
+    background-color: orange;
+    color: white;
+}
+
+.main .line2 {
+    margin-top: 10px;
+    display: flex;
+}
+
+.line2 button {
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+button {
+    border-radius: 180px;
+    height: 60px;
+    background-color: #2a2a2a;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.line2 button:hover {
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.main .line3 {
+    margin-top: 10px;
+    display: flex;
+}
+
+.line3 button {
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+.line3 button:hover {
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.main .line4 {
+    margin-top: 10px;
+    display: flex;
+}
+
+.line4 button {
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+.line4 button:hover {
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.main .line5 {
+    margin-top: 10px;
+    display: flex;
+}
+
+.line5 button {
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+.line5 button:hover {
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.line5 .widebutton {
+    width: 139px;
+    text-align: left;
+    padding-left: 28px;
+}
+
+@media screen and (max-width: 1150px) {
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 300px;
+}
+
+}
