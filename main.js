@@ -6,7 +6,7 @@ window.onload = function () {
     button.addEventListener("click", function () {
       if (button.innerText === "=") {
         try {
-          display.innerText = eval(display.innerText); //the equality sign runs using the 
+          display.innerText = eval(display.innerText); //the equality sign runs using the
           //eval function which is used to evaluate the value
         } catch {
           display.innerText = "invalid expression";
@@ -16,7 +16,9 @@ window.onload = function () {
       } else {
         display.innerText += button.innerText;
       }
+      if (button.innerText === "+/-") {
+        display.innerText = "-";
+      }
     });
   });
 };
-
